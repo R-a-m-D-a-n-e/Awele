@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Awele/static/css/main.1cc1098b.chunk.css",
+    "main.js": "/Awele/static/js/main.c4de012e.chunk.js",
+    "main.js.map": "/Awele/static/js/main.c4de012e.chunk.js.map",
+    "runtime-main.js": "/Awele/static/js/runtime-main.397f1bb2.js",
+    "runtime-main.js.map": "/Awele/static/js/runtime-main.397f1bb2.js.map",
+    "static/css/2.48eff10a.chunk.css": "/Awele/static/css/2.48eff10a.chunk.css",
+    "static/js/2.e6dcd284.chunk.js": "/Awele/static/js/2.e6dcd284.chunk.js",
+    "static/js/2.e6dcd284.chunk.js.map": "/Awele/static/js/2.e6dcd284.chunk.js.map",
+    "static/js/3.ee6e472a.chunk.js": "/Awele/static/js/3.ee6e472a.chunk.js",
+    "static/js/3.ee6e472a.chunk.js.map": "/Awele/static/js/3.ee6e472a.chunk.js.map",
+    "index.html": "/Awele/index.html",
+    "static/css/2.48eff10a.chunk.css.map": "/Awele/static/css/2.48eff10a.chunk.css.map",
+    "static/css/main.1cc1098b.chunk.css.map": "/Awele/static/css/main.1cc1098b.chunk.css.map",
+    "static/js/2.e6dcd284.chunk.js.LICENSE.txt": "/Awele/static/js/2.e6dcd284.chunk.js.LICENSE.txt",
+    "static/media/all.css": "/Awele/static/media/fa-solid-900.f4f93856.woff",
+    "static/media/style2.css": "/Awele/static/media/wood.7723af62.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.397f1bb2.js",
+    "static/css/2.48eff10a.chunk.css",
+    "static/js/2.e6dcd284.chunk.js",
+    "static/css/main.1cc1098b.chunk.css",
+    "static/js/main.c4de012e.chunk.js"
+  ]
+}
