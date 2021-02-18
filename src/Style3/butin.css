@@ -1,0 +1,50 @@
+.butin {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("../img/wood.png");
+    width: 5rem;
+    height: 4rem;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 30%;
+    box-shadow: 0px 1px 0px rgb(155, 126, 126), 0px 2px 0px #a32d2d, 0px 3px 0px rgb(20, 104, 90), 0px 4px 0px #262497, 0px 5px 0px rgb(124, 18, 27), 0px 6px 1px rgba(0, 0, 0, 0.1), 0px 0px 5px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 3px 5px rgba(0, 0, 0, 0.2), -4px 8px 8px rgba(0, 0, 0, 0.1), -8px 16px 16px rgba(0, 0, 0, 0.37), -16px 32px 32px rgba(0, 0, 0, 0.25), -32px 64px 64px rgba(0, 0, 0, 0.25);
+    font-size: 3rem;
+    font-weight: 900;
+    /* color: #b6a293; */
+}
+
+.butinJoueur2 {
+    color: #1b1b1b;
+}
+
+.butinJoueur1 {
+    color: #d3d4d4;
+}
+
+.val {
+    transform: rotateX(10deg);
+    order: 2;
+}
+
+.nameJoueur2 {
+    font-size: 1rem;
+    order: 1;
+}
+
+.nameJoueur1 {
+    font-size: 1rem;
+    order: 3;
+}
+
+.trait {
+    position: absolute;
+    width: 0.7rem;
+    height: 0.7rem;
+    border: 3px dotted #2a9d8f;
+    border-radius: 50%;
+    top: 0.7rem;
+    left: 0.5rem;
+}

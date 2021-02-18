@@ -1,0 +1,91 @@
+.menuPartie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #212529bd;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.finPartie {
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    height: 30%;
+    top: 0;
+    color: #a01a58;
+    font-family: "Font Awesome 5 Free";
+    font-size: 3rem;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.finPartie::after {
+    content: " \f5bc";
+    font-weight: 900;
+}
+
+.finPartie::before {
+    content: "\f5bc ";
+    font-weight: 900;
+}
+
+.boxMenuPartie {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn__menuPartie {
+    letter-spacing: 0.1em;
+    position: relative;
+    width: 100%;
+    margin: 1rem;
+    padding: 0 1.5rem;
+    border-radius: 0.2rem;
+    font-family: "Font Awesome 5 Free";
+    font-size: 1.5rem;
+    line-height: 45px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #c0c0c0;
+    box-sizing: border-box;
+}
+
+.btn__menuPartie:hover {
+    border-color: #f8ad9d;
+    color: #f8ad9d;
+}
+
+.disableReplay,
+.disableReplay:hover {
+    border-color: #6c757d;
+    color: #6c757d;
+}
+
+.disableReplay:hover {
+    cursor: pointer;
+}
+
+.play::before {
+    content: "\f04b";
+    margin-right: 0.5rem;
+    font-weight: 900;
+}
+
+.replay::before {
+    content: "\f01e";
+    margin-right: 0.5rem;
+    font-weight: 900;
+}
+
+.exit::before {
+    content: "\f2f5";
+    margin-right: 0.5rem;
+    font-weight: 900;
+}

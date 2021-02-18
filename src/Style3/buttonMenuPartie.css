@@ -1,0 +1,21 @@
+.buttonMenuPartie {
+    position: absolute;
+    /* width: 30px;
+    height: 30px; */
+    margin: 1rem 2rem;
+    top: 0;
+    left: 0;
+    font-family: "Font Awesome 5 Free";
+    font-size: 2rem;
+    color: #ced4da;
+}
+
+.buttonMenuPartie::after {
+    content: "\f039";
+    font-weight: 900;
+}
+
+.buttonMenuPartie:hover {
+    color: #adb5bd;
+    cursor: pointer;
+}

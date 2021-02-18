@@ -1,0 +1,50 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #212529;
+    width: 400px;
+    height: 400px;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0px 6px 1px rgba(0, 0, 0, 0.1), 0px 0px 5px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 3px 5px rgba(0, 0, 0, 0.2), -4px 8px 8px rgba(0, 0, 0, 0.1), -8px 16px 16px rgba(0, 0, 0, 0.37), -16px 32px 32px rgba(0, 0, 0, 0.25), -32px 64px 64px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #212529, #343a40, #6c757d);
+    /* background-image: linear-gradient(to right, #054f7d, #00a7cf, #efe348, #861a54, #054f7d); */
+    background-size: 600%;
+    background-position: 0 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Lato', Arial, sans-serif;
+    /* Animation */
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-name: gradients;
+}
+
+@keyframes gradients {
+    0% {
+        background-position: 0 0;
+    }
+    25% {
+        background-position: 50% 0;
+    }
+    50% {
+        background-position: 90% 0;
+    }
+    60% {
+        background-position: 60%;
+    }
+    75% {
+        background-position: 40%;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}

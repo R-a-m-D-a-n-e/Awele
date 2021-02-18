@@ -1,0 +1,39 @@
+.menuRobot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 4.5rem;
+    /* width: 70%; */
+}
+
+.hiddenMenuRobot {
+    visibility: hidden;
+}
+
+.option {
+    width: 100%;
+    font-size: 1rem;
+    color: #9098a9 !important;
+}
+
+.optRobot__control {
+    height: 38px;
+    background-color: transparent !important;
+    border-color: #c8ccd4 !important;
+}
+
+.optRobot__control--is-focused {
+    box-shadow: none !important;
+}
+
+.optRobot__menu {
+    background-color: transparent;
+}
+
+.optRobot__placeholder {
+    color: #9098a9 !important;
+}
+
+.optRobot__single-value {
+    color: #ced4da !important;
+}
