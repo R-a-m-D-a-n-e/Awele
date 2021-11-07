@@ -1,6 +1,6 @@
 # Awele
 
-Jeux d'Awélé
+Jeu d'Awélé
 
 ## Install PIP if not install
 
