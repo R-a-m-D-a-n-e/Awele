@@ -2,6 +2,11 @@
 
 Jeu d'Awélé
 
+## Demo
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Ifbb_l3g3T8/0.jpg)](https://www.youtube.com/watch?v=Ifbb_l3g3T8)
+
+
 ## Install PIP if not install
 
 python get-pip.py
